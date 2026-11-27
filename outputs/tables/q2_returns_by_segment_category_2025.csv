@@ -1,0 +1,41 @@
+segment,category,credit,write_off,impact,net_sales,return_rate
+National Chain,Personal Care,15837.05,11218.08,-15004.12,1682098.7,0.0094
+Convenience Store,Dairy,17562.76,15141.42,-14826.4,197023.09,0.0891
+National Chain,Dairy,13220.86,11512.12,-11523.05,1513317.8,0.0087
+National Chain,Frozen,21963.92,7826.29,-11309.94,2088209.39,0.0105
+HoReCa,Dairy,11515.43,9135.65,-9584.02,268227.82,0.0429
+Regional Supermarket,Frozen,12055.83,6188.42,-8757.84,807382.43,0.0149
+National Chain,Canned Goods,10284.89,7466.07,-8491.8,1595350.07,0.0064
+Independent Grocery,Dairy,8279.2,6672.71,-7022.39,348285.43,0.0238
+Convenience Store,Bakery,6856.74,4743.93,-6163.02,82199.94,0.0834
+Regional Supermarket,Canned Goods,7921.56,4192.98,-5427.87,578204.64,0.0137
+National Chain,Household Cleaning,8647.56,2924.77,-4968.42,1247756.06,0.0069
+National Chain,Snacks,6986.95,4065.89,-4644.42,1050663.89,0.0067
+National Chain,Bakery,5470.97,3708.29,-4622.12,639170.97,0.0086
+HoReCa,Bakery,4540.36,3160.76,-4187.96,93528.19,0.0485
+Regional Supermarket,Dairy,4164.17,3830.67,-4022.53,595976.69,0.007
+Regional Supermarket,Household Cleaning,4261.63,2244.45,-3438.15,459545.7,0.0093
+National Chain,Beverages,11090.25,3531.3,-2766.24,1321464.11,0.0084
+Independent Grocery,Canned Goods,3757.34,2146.22,-2578.26,358001.56,0.0105
+Regional Supermarket,Beverages,3744.59,1814.83,-2376.08,473112.81,0.0079
+HoReCa,Frozen,4187.07,1496.34,-2329.37,411336.19,0.0102
+Regional Supermarket,Snacks,3294.28,1307.15,-2114.92,396291.52,0.0083
+Independent Grocery,Bakery,2786.63,1442.33,-2080.11,146028.43,0.0191
+Independent Grocery,Personal Care,2424.61,931.92,-1638.87,429295.46,0.0056
+Regional Supermarket,Personal Care,2960.36,645.4,-1464.85,612117.5,0.0048
+Independent Grocery,Beverages,2097.46,1109.1,-1432.58,295562.52,0.0071
+Independent Grocery,Household Cleaning,2017.94,832.65,-1397.68,295406.03,0.0068
+Convenience Store,Beverages,1877.21,1168.64,-1268.78,188692.15,0.0099
+Independent Grocery,Snacks,2598.12,583.54,-1192.92,253312.21,0.0103
+HoReCa,Beverages,1530.71,859.28,-1027.82,149164.78,0.0103
+Regional Supermarket,Bakery,1078.18,779.7,-991.71,245421.09,0.0044
+Independent Grocery,Frozen,2103.28,481.68,-921.91,259948.0,0.0081
+Convenience Store,Snacks,1635.21,545.71,-886.04,166177.6,0.0098
+HoReCa,Household Cleaning,901.26,305.13,-572.62,77360.45,0.0117
+HoReCa,Canned Goods,778.18,407.79,-521.26,139907.91,0.0056
+Convenience Store,Personal Care,465.19,268.54,-412.37,72913.35,0.0064
+Convenience Store,Canned Goods,801.13,252.16,-331.39,39568.62,0.0202
+HoReCa,Snacks,369.05,90.84,-190.17,32253.95,0.0114
+HoReCa,Personal Care,156.89,121.08,-156.89,29331.62,0.0053
+Convenience Store,Household Cleaning,335.32,66.08,-147.84,33846.56,0.0099
+Convenience Store,Frozen,123.76,92.02,-123.76,37842.6,0.0033

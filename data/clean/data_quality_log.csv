@@ -1,0 +1,23 @@
+step,table,issue,rows_affected,action
+1,products,Category text with wrong case or trailing spaces,20,Trimmed and title-cased
+2,products,Duplicate SKU rows in product master,3,Kept first occurrence
+3,customers,Internal test account,1,Removed (and its sales lines)
+4,customers,"Names in all caps, lowercase or with leading spaces",71,Trimmed and title-cased
+5,customers,"Region typos (e.g. 'Nrth', 'WEST', 'central ')",21,Mapped to 5 standard regions
+6,customers,"Duplicate customer records (same name and city, different ID)",6,Merged into the original customer ID
+7,sales_lines,Lines booked to the test account,60,Removed
+8,sales_lines,Lines booked to a duplicate customer ID,540,Re-pointed to the master customer ID
+9,sales_lines,Exact duplicate lines (double export),761,Removed
+10,sales_lines,Negative-quantity lines (returns keyed in the sales system),540,"Removed: returns_raw.csv is the single source for returns, so keeping them would double count"
+11,sales_lines,Order dates in DD/MM/YYYY instead of YYYY-MM-DD,10149,Parsed with the correct format
+12,sales_lines,SKU codes in lowercase or with trailing spaces,3805,Trimmed and upper-cased
+13,sales_lines,SKUs not found in product master,0,Checked: none
+14,sales_lines,Discount typed as a whole number (8 instead of 0.08),5074,Divided by 100
+15,sales_lines,Missing rep_id,2537,Filled with the customer's assigned rep
+16,sales_lines,Exported net_amount differs from price x qty x (1 - discount) by more than $0.05,0,Checked: none
+17,supplier_costs,SKUs whose first cost record starts after Jan 2023,1,Earliest known cost used for earlier dates (SKU0047)
+18,sales_lines,Lines with no cost on the order date,179,Back-filled from the earliest cost
+19,deliveries,Missing freight cost,185,Imputed with the median for the same region and order-size band
+20,returns,"Inconsistent return reasons (EXPIRED, expiry, DMG, Refused ...)",1790,Mapped to 4 standard reasons
+21,returns,Returns that do not match a sales line,0,Checked: none
+22,returns,Returned quantity above quantity sold,0,Checked: none

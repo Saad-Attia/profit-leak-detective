@@ -1,0 +1,184 @@
+sku,product_name,category,supplier,pack
+SKU0001,Orange Juice Small,Beverages,Atlas Foods,Case of 12
+SKU0002,Cola Small,Beverages,Blue River Beverages,Case of 24
+SKU0003,Sparkling Water Small,Beverages,Crestline Snacks,Case of 24
+SKU0004,Iced Tea Small,Beverages,Atlas Foods,Case of 24
+SKU0005,Energy Drink Small,Beverages,Blue River Beverages,Case of 24
+SKU0006,Mango Nectar Small,Beverages,Crestline Snacks,Case of 12
+SKU0007,Still Water Small,Beverages,Atlas Foods,Case of 24
+SKU0008,Lemonade Small,Beverages,Blue River Beverages,Case of 6
+SKU0009,Apple Juice Small,Beverages,Crestline Snacks,Case of 6
+SKU0010,Cold Brew Small,Beverages,Atlas Foods,Case of 24
+SKU0011,Orange Juice Medium,Beverages,Blue River Beverages,Case of 12
+SKU0012,Cola Medium,beverages,Crestline Snacks,Case of 6
+SKU0013,Sparkling Water Medium,Beverages,Atlas Foods,Case of 12
+SKU0014,Iced Tea Medium,Beverages,Blue River Beverages,Case of 6
+SKU0015,Energy Drink Medium,Beverages,Crestline Snacks,Case of 24
+SKU0016,Mango Nectar Medium,Beverages,Atlas Foods,Case of 12
+SKU0017,Still Water Medium,Beverages,Blue River Beverages,Case of 24
+SKU0018,Lemonade Medium,Beverages,Crestline Snacks,Case of 24
+SKU0019,Apple Juice Medium,Beverages,Atlas Foods,Case of 12
+SKU0020,Cold Brew Medium,Beverages,Blue River Beverages,Case of 6
+SKU0021,Orange Juice Large,Beverages,Crestline Snacks,Case of 12
+SKU0022,Cola Large,Beverages,Atlas Foods,Case of 24
+SKU0023,Sparkling Water Large,Beverages,Blue River Beverages,Case of 6
+SKU0024,Iced Tea Large,Beverages,Crestline Snacks,Case of 6
+SKU0025,Energy Drink Large,beverages,Atlas Foods,Case of 12
+SKU0026,Mango Nectar Large,Beverages,Blue River Beverages,Case of 12
+SKU0027,Still Water Large,Beverages,Crestline Snacks,Case of 12
+SKU0028,Lemonade Large,Beverages,Atlas Foods,Case of 12
+SKU0029,Apple Juice Large,Beverages,Blue River Beverages,Case of 24
+SKU0030,Cold Brew Large,Beverages,Crestline Snacks,Case of 6
+SKU0031,Potato Chips Small,Snacks,Dalewood Dairy,Case of 12
+SKU0032,Tortilla Chips Small,Snacks ,Evergreen Bakeries,Case of 24
+SKU0033,Salted Peanuts Small,Snacks,Dalewood Dairy,Case of 12
+SKU0034,Choc Wafer Small,Snacks,Evergreen Bakeries,Case of 6
+SKU0035,Granola Bar Small,Snacks,Dalewood Dairy,Case of 24
+SKU0036,Pretzels Small,Snacks,Evergreen Bakeries,Case of 12
+SKU0037,Popcorn Small,Snacks,Dalewood Dairy,Case of 6
+SKU0038,Cheese Puffs Small,Snacks,Evergreen Bakeries,Case of 6
+SKU0039,Mixed Nuts Small,Snacks,Dalewood Dairy,Case of 12
+SKU0040,Rice Crackers Small,Snacks,Evergreen Bakeries,Case of 24
+SKU0041,Potato Chips Medium,Snacks,Dalewood Dairy,Case of 6
+SKU0042,Tortilla Chips Medium,Snacks,Evergreen Bakeries,Case of 24
+SKU0043,Salted Peanuts Medium,Snacks,Dalewood Dairy,Case of 12
+SKU0044,Choc Wafer Medium,Snacks,Evergreen Bakeries,Case of 24
+SKU0045,Granola Bar Medium,Snacks,Dalewood Dairy,Case of 12
+SKU0046,Pretzels Medium,Snacks,Evergreen Bakeries,Case of 6
+SKU0047,Popcorn Medium,Snacks,Dalewood Dairy,Case of 6
+SKU0048,Cheese Puffs Medium,Snacks,Evergreen Bakeries,Case of 12
+SKU0049,Mixed Nuts Medium,Snacks,Dalewood Dairy,Case of 24
+SKU0050,Rice Crackers Medium,Snacks,Evergreen Bakeries,Case of 6
+SKU0051,Potato Chips Large,Snacks,Dalewood Dairy,Case of 6
+SKU0052,Tortilla Chips Large,Snacks,Evergreen Bakeries,Case of 12
+SKU0053,Salted Peanuts Large,Snacks ,Dalewood Dairy,Case of 12
+SKU0054,Choc Wafer Large,Snacks,Evergreen Bakeries,Case of 12
+SKU0055,Granola Bar Large,Snacks,Dalewood Dairy,Case of 6
+SKU0056,Pretzels Large,Snacks,Evergreen Bakeries,Case of 6
+SKU0057,Popcorn Large,Snacks,Dalewood Dairy,Case of 12
+SKU0058,Cheese Puffs Large,Snacks ,Evergreen Bakeries,Case of 12
+SKU0059,Full Cream Milk Small,Dairy,Fairport Canning,Case of 6
+SKU0060,Low-Fat Milk Small,Dairy,Glacier Frozen,Case of 6
+SKU0061,Greek Yogurt Small,dairy,Fairport Canning,Case of 6
+SKU0062,Cheddar Block Small,Dairy,Glacier Frozen,Case of 6
+SKU0063,Butter Small,Dairy,Fairport Canning,Case of 6
+SKU0064,Labneh Small,Dairy,Glacier Frozen,Case of 6
+SKU0065,Cream Cheese Small,dairy,Fairport Canning,Case of 12
+SKU0066,Drinking Yogurt Small,Dairy,Glacier Frozen,Case of 12
+SKU0067,Feta Small,Dairy,Fairport Canning,Case of 12
+SKU0068,Cooking Cream Small,Dairy,Glacier Frozen,Case of 6
+SKU0069,Full Cream Milk Medium,Dairy,Fairport Canning,Case of 12
+SKU0070,Low-Fat Milk Medium,Dairy,Glacier Frozen,Case of 6
+SKU0071,Greek Yogurt Medium,Dairy,Fairport Canning,Case of 24
+SKU0072,Cheddar Block Medium,Dairy,Glacier Frozen,Case of 24
+SKU0073,Butter Medium,Dairy,Fairport Canning,Case of 12
+SKU0074,Labneh Medium,Dairy,Glacier Frozen,Case of 12
+SKU0075,Cream Cheese Medium,Dairy,Fairport Canning,Case of 6
+SKU0076,Drinking Yogurt Medium,Dairy,Glacier Frozen,Case of 24
+SKU0077,Feta Medium,Dairy,Fairport Canning,Case of 24
+SKU0078,Cooking Cream Medium,Dairy,Glacier Frozen,Case of 6
+SKU0079,Full Cream Milk Large,Dairy,Fairport Canning,Case of 6
+SKU0080,Low-Fat Milk Large,Dairy,Glacier Frozen,Case of 24
+SKU0081,Sliced Bread Small,Bakery,Homestead Brands,Case of 6
+SKU0082,Croissant Small,Bakery,Ironbridge Supply,Case of 6
+SKU0083,Burger Buns Small,Bakery ,Homestead Brands,Case of 24
+SKU0084,Pita Bread Small,Bakery,Ironbridge Supply,Case of 12
+SKU0085,Muffins Small,Bakery,Homestead Brands,Case of 24
+SKU0086,Toast Bread Small,Bakery,Ironbridge Supply,Case of 6
+SKU0087,Brioche Small,Bakery,Homestead Brands,Case of 6
+SKU0088,Rusks Small,Bakery,Ironbridge Supply,Case of 12
+SKU0089,Bagels Small,Bakery,Homestead Brands,Case of 12
+SKU0090,Tortilla Wraps Small,Bakery,Ironbridge Supply,Case of 6
+SKU0091,Sliced Bread Medium,Bakery ,Homestead Brands,Case of 24
+SKU0092,Croissant Medium,Bakery,Ironbridge Supply,Case of 12
+SKU0093,Burger Buns Medium,Bakery,Homestead Brands,Case of 12
+SKU0094,Pita Bread Medium,Bakery,Ironbridge Supply,Case of 12
+SKU0095,Muffins Medium,Bakery,Homestead Brands,Case of 6
+SKU0096,Toast Bread Medium,Bakery,Ironbridge Supply,Case of 24
+SKU0097,Brioche Medium,Bakery,Homestead Brands,Case of 6
+SKU0098,Rusks Medium,Bakery,Ironbridge Supply,Case of 12
+SKU0099,Tuna Chunks Small,Canned Goods,Juniper Home Care,Case of 12
+SKU0100,Chickpeas Small,Canned Goods,Keystone Personal Care,Case of 6
+SKU0101,Fava Beans Small,Canned Goods,Juniper Home Care,Case of 24
+SKU0102,Sweet Corn Small,Canned Goods,Keystone Personal Care,Case of 6
+SKU0103,Tomato Paste Small,Canned Goods,Juniper Home Care,Case of 24
+SKU0104,Peeled Tomatoes Small,Canned Goods,Keystone Personal Care,Case of 6
+SKU0105,Baked Beans Small,Canned Goods,Juniper Home Care,Case of 12
+SKU0106,Sardines Small,Canned Goods,Keystone Personal Care,Case of 6
+SKU0107,Mushrooms Small,Canned Goods,Juniper Home Care,Case of 12
+SKU0108,Peaches Small,Canned Goods,Keystone Personal Care,Case of 12
+SKU0109,Tuna Chunks Medium,Canned Goods,Juniper Home Care,Case of 24
+SKU0110,Chickpeas Medium,Canned Goods,Keystone Personal Care,Case of 24
+SKU0111,Fava Beans Medium,Canned Goods,Juniper Home Care,Case of 6
+SKU0112,Sweet Corn Medium,Canned Goods,Keystone Personal Care,Case of 6
+SKU0113,Tomato Paste Medium,Canned Goods,Juniper Home Care,Case of 6
+SKU0114,Peeled Tomatoes Medium,Canned Goods,Keystone Personal Care,Case of 24
+SKU0115,Baked Beans Medium,Canned Goods,Juniper Home Care,Case of 24
+SKU0116,Sardines Medium,Canned Goods ,Keystone Personal Care,Case of 24
+SKU0117,Mushrooms Medium,Canned Goods,Juniper Home Care,Case of 12
+SKU0118,Peaches Medium,Canned Goods ,Keystone Personal Care,Case of 24
+SKU0119,Tuna Chunks Large,Canned Goods,Juniper Home Care,Case of 24
+SKU0120,Chickpeas Large,Canned Goods,Keystone Personal Care,Case of 12
+SKU0121,Fava Beans Large,Canned Goods,Juniper Home Care,Case of 12
+SKU0122,Sweet Corn Large,Canned Goods ,Keystone Personal Care,Case of 12
+SKU0123,Frozen Peas Small,Frozen,Lakeside Drinks,Case of 24
+SKU0124,Chicken Nuggets Small,Frozen ,Meadow Farms,Case of 6
+SKU0125,Beef Burgers Small,Frozen,Lakeside Drinks,Case of 24
+SKU0126,French Fries Small,Frozen,Meadow Farms,Case of 24
+SKU0127,Mixed Veg Small,Frozen,Lakeside Drinks,Case of 12
+SKU0128,Fish Fillets Small,Frozen,Meadow Farms,Case of 12
+SKU0129,Pizza Base Small,Frozen ,Lakeside Drinks,Case of 6
+SKU0130,Spinach Small,Frozen,Meadow Farms,Case of 24
+SKU0131,Okra Small,Frozen,Lakeside Drinks,Case of 24
+SKU0132,Ice Cream Tub Small,Frozen,Meadow Farms,Case of 12
+SKU0133,Frozen Peas Medium,Frozen,Lakeside Drinks,Case of 24
+SKU0134,Chicken Nuggets Medium,Frozen,Meadow Farms,Case of 6
+SKU0135,Beef Burgers Medium,Frozen,Lakeside Drinks,Case of 24
+SKU0136,French Fries Medium,Frozen,Meadow Farms,Case of 24
+SKU0137,Mixed Veg Medium,Frozen,Lakeside Drinks,Case of 12
+SKU0138,Fish Fillets Medium,Frozen ,Meadow Farms,Case of 12
+SKU0139,Dish Soap Small,Household Cleaning,Northstar Packers,Case of 24
+SKU0140,Laundry Powder Small,Household Cleaning,Northstar Packers,Case of 12
+SKU0141,Floor Cleaner Small,Household Cleaning,Northstar Packers,Case of 6
+SKU0142,Bleach Small,Household Cleaning,Northstar Packers,Case of 24
+SKU0143,Glass Cleaner Small,Household Cleaning,Northstar Packers,Case of 24
+SKU0144,Fabric Softener Small,Household Cleaning,Northstar Packers,Case of 12
+SKU0145,Sponges Small,Household Cleaning ,Northstar Packers,Case of 24
+SKU0146,Bin Bags Small,Household Cleaning,Northstar Packers,Case of 24
+SKU0147,Kitchen Towels Small,Household Cleaning,Northstar Packers,Case of 24
+SKU0148,Toilet Cleaner Small,Household Cleaning,Northstar Packers,Case of 6
+SKU0149,Dish Soap Medium,Household Cleaning,Northstar Packers,Case of 6
+SKU0150,Laundry Powder Medium,Household Cleaning,Northstar Packers,Case of 12
+SKU0151,Floor Cleaner Medium,Household Cleaning,Northstar Packers,Case of 12
+SKU0152,Bleach Medium,Household Cleaning,Northstar Packers,Case of 24
+SKU0153,Glass Cleaner Medium,Household Cleaning,Northstar Packers,Case of 24
+SKU0154,Fabric Softener Medium,Household Cleaning,Northstar Packers,Case of 12
+SKU0155,Sponges Medium,Household Cleaning,Northstar Packers,Case of 6
+SKU0156,Bin Bags Medium,Household Cleaning,Northstar Packers,Case of 12
+SKU0157,Kitchen Towels Medium,Household Cleaning,Northstar Packers,Case of 6
+SKU0158,Toilet Cleaner Medium,Household Cleaning,Northstar Packers,Case of 6
+SKU0159,Dish Soap Large,Household Cleaning,Northstar Packers,Case of 6
+SKU0160,Laundry Powder Large,Household Cleaning,Northstar Packers,Case of 24
+SKU0161,Shampoo Small,Personal Care,Oakline Foods,Case of 12
+SKU0162,Body Wash Small,personal care,Oakline Foods,Case of 6
+SKU0163,Toothpaste Small,personal care,Oakline Foods,Case of 24
+SKU0164,Hand Soap Small,Personal Care,Oakline Foods,Case of 24
+SKU0165,Deodorant Small,Personal Care,Oakline Foods,Case of 6
+SKU0166,Conditioner Small,Personal Care,Oakline Foods,Case of 6
+SKU0167,Baby Wipes Small,Personal Care,Oakline Foods,Case of 6
+SKU0168,Facial Tissue Small,Personal Care,Oakline Foods,Case of 24
+SKU0169,Lotion Small,Personal Care,Oakline Foods,Case of 24
+SKU0170,Toothbrush Pack Small,Personal Care,Oakline Foods,Case of 24
+SKU0171,Shampoo Medium,Personal Care,Oakline Foods,Case of 12
+SKU0172,Body Wash Medium,Personal Care,Oakline Foods,Case of 24
+SKU0173,Toothpaste Medium,personal care,Oakline Foods,Case of 6
+SKU0174,Hand Soap Medium,Personal Care,Oakline Foods,Case of 6
+SKU0175,Deodorant Medium,Personal Care,Oakline Foods,Case of 12
+SKU0176,Conditioner Medium,Personal Care,Oakline Foods,Case of 6
+SKU0177,Baby Wipes Medium,Personal Care,Oakline Foods,Case of 12
+SKU0178,Facial Tissue Medium,Personal Care,Oakline Foods,Case of 6
+SKU0179,Lotion Medium,Personal Care,Oakline Foods,Case of 12
+SKU0180,Toothbrush Pack Medium,personal care,Oakline Foods,Case of 24
+SKU0074,Labneh Medium,Dairy,Glacier Frozen,Case of 12
+SKU0001,Orange Juice Small,Beverages,Atlas Foods,Case of 12
+SKU0117,Mushrooms Medium,Canned Goods,Juniper Home Care,Case of 12

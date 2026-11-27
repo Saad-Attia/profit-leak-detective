@@ -1,0 +1,220 @@
+// Black Edition: every measure missing from the original guide.
+// HOW TO USE: Power BI Desktop > DAX query view (left bar) > New query > paste all of this.
+// Above each MEASURE line click 'Update model: Add new measure' (or 'Overwrite measure' for Attention Status),
+// or click 'Update model with changes' once to add them all. Then move them into display folders 7 and 8.
+// BEFORE running: create the table 'Leak Items' with Modeling > New table (see the guide).
+// AFTER running: set Data category = Image URL on every 'SVG ...' measure.
+
+DEFINE
+    MEASURE '_Measures'[Attention Status] =
+        VAR _item = SELECTEDVALUE ( 'Attention Items'[Item] )
+        VAR v = [Attention Value]
+        VAR crit = 0.10 * [Pocket Profit]          -- a leak worth 10% of pocket profit is critical
+        RETURN
+        SWITCH (
+            TRUE (),
+            _item = "Gross margin vs last year", IF ( v <= -2, "Critical", IF ( v < 0, "Review", "OK" ) ),
+            _item = "Loss-making customers", IF ( v >= 0.25 * [Active Customers], "Critical", IF ( v > 0, "Review", "OK" ) ),
+            ABS ( v ) >= crit, "Critical",
+            v < 0, "Review",
+            "OK"
+        )
+
+    MEASURE '_Measures'[Sales Below Price Floor %] =
+        DIVIDE (
+            SUMX (
+                FILTER ( fact_sales, fact_sales[net_sales] < fact_sales[unit_cost] * fact_sales[quantity] / ( 1 - 0.08 ) ),
+                fact_sales[net_sales]
+            ),
+            [Net Sales]
+        )
+
+    MEASURE '_Measures'[Below-Cost Sales %] =
+        DIVIDE ( [Below-Cost Sales], [Net Sales] )
+
+    MEASURE '_Measures'[Leakage % of Pocket Profit] =
+        DIVIDE ( [Profit Leakage], [Pocket Profit] )
+
+    MEASURE '_Measures'[Biggest Customer Pocket Margin] =
+        VAR TopCust = TOPN ( 1, VALUES ( dim_customer[customer_id] ), [Net Revenue], DESC )
+        RETURN CALCULATE ( [Pocket Margin %], TopCust )
+
+    MEASURE '_Measures'[Biggest Customer Label] =
+        VAR TopCust = TOPN ( 1, VALUES ( dim_customer[customer_id] ), [Net Revenue], DESC )
+        VAR nm = CALCULATE ( SELECTEDVALUE ( dim_customer[customer_name] ), TopCust )
+        VAR share = DIVIDE ( CALCULATE ( [Net Revenue], TopCust ), [Net Revenue] )
+        RETURN nm & " · " & FORMAT ( share, "0%" ) & " of revenue"
+
+    MEASURE '_Measures'[Price minus Cost pts] =
+        ( [Net Price Change %] - [Cost Change %] ) * 100
+
+    MEASURE '_Measures'[Category Rank] =
+        RANKX ( ALLSELECTED ( dim_product[category] ), [Pocket Margin %], , DESC, DENSE )
+
+    MEASURE '_Measures'[Returns Rank] =
+        RANKX ( ALLSELECTED ( dim_product[category] ), [Returns Profit Impact], , ASC, DENSE )
+
+    MEASURE '_Measures'[Net Revenue YoY Label] =
+        FORMAT ( [Net Revenue YoY %], "+0.0%;-0.0%" ) & " vs PY"
+
+    MEASURE '_Measures'[Gross Profit YoY Label] =
+        FORMAT ( [Gross Profit YoY %], "+0.0%;-0.0%" ) & " vs PY"
+
+    MEASURE '_Measures'[Gross Margin Change Label] =
+        FORMAT ( [Gross Margin Change pts], "+0.0;-0.0" ) & " pts vs PY"
+
+    MEASURE '_Measures'[Pocket Profit YoY Label] =
+        FORMAT ( [Pocket Profit YoY %], "+0.0%;-0.0%" ) & " vs PY"
+
+    MEASURE '_Measures'[YoY Color] =
+        IF ( [Net Revenue YoY %] >= 0, "#22C55E", "#EF4444" )
+
+    MEASURE '_Measures'[GP YoY Color] =
+        IF ( [Gross Profit YoY %] >= 0, "#22C55E", "#EF4444" )
+
+    MEASURE '_Measures'[Pocket YoY Color] =
+        IF ( [Pocket Profit YoY %] >= 0, "#22C55E", "#EF4444" )
+
+    MEASURE '_Measures'[GM Change Color] =
+        IF ( [Gross Margin Change pts] >= 0, "#22C55E", "#EF4444" )
+
+    MEASURE '_Measures'[Floor Label] =
+        "priced under cost + 8% margin"
+
+    MEASURE '_Measures'[Leak Label] =
+        "profit lost to three leaks"
+
+    MEASURE '_Measures'[Sim Pocket (price only)] =
+        [Pocket Profit] + [Price Lever Uplift]
+
+    MEASURE '_Measures'[Leak Value] =
+        SWITCH (
+            SELECTEDVALUE ( 'Leak Items'[Item] ),
+            "Below-cost sales", [Below-Cost Gross Loss],
+            "Excess rep discounts", - [Excess Discount (Generous Reps)],
+            "Returns write-offs", [Returns Profit Impact]
+        )
+
+    MEASURE '_Measures'[SVG Category Bar] =
+        VAR lbl = SELECTEDVALUE ( dim_product[category] )
+        VAR v = [Pocket Margin %]
+        VAR c = IF ( v < 0, "%23EF4444", IF ( v < 0.10, "%233B82F6", "%2322C55E" ) )
+        VAR w = INT ( MIN ( ABS ( v ) / 0.25, 1 ) * 280 )
+        VAR pct = SUBSTITUTE ( FORMAT ( v, "0.0%" ), "%", "%25" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='280' height='34'>" &
+        "<text x='0' y='13' font-family='Segoe UI' font-size='12' fill='%23FAFAFA'>" & lbl & "</text>" &
+        "<text x='280' y='13' text-anchor='end' font-family='Segoe UI' font-size='12' font-weight='600' fill='" & c & "'>" & pct & "</text>" &
+        "<rect x='0' y='22' width='280' height='7' rx='3.5' fill='%23262626'/>" &
+        "<rect x='0' y='22' width='" & w & "' height='7' rx='3.5' fill='" & c & "'/></svg>"
+
+    MEASURE '_Measures'[SVG Segment Bar] =
+        VAR lbl = SELECTEDVALUE ( dim_customer[segment] )
+        VAR v = [Pocket Margin %]
+        VAR c = IF ( v < 0, "%23EF4444", IF ( v < 0.10, "%233B82F6", "%2322C55E" ) )
+        VAR w = INT ( MIN ( ABS ( v ) / 0.20, 1 ) * 580 )
+        VAR pct = SUBSTITUTE ( FORMAT ( v, "0.0%" ), "%", "%25" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='580' height='34'>" &
+        "<text x='0' y='13' font-family='Segoe UI' font-size='12' fill='%23FAFAFA'>" & lbl & "</text>" &
+        "<text x='580' y='13' text-anchor='end' font-family='Segoe UI' font-size='12' font-weight='600' fill='" & c & "'>" & pct & "</text>" &
+        "<rect x='0' y='22' width='580' height='7' rx='3.5' fill='%23262626'/>" &
+        "<rect x='0' y='22' width='" & w & "' height='7' rx='3.5' fill='" & c & "'/></svg>"
+
+    MEASURE '_Measures'[SVG Returns Bar] =
+        VAR lbl = SELECTEDVALUE ( dim_product[category] )
+        VAR v = [Returns Profit Impact]
+        VAR mx = MAXX ( ALLSELECTED ( dim_product[category] ), ABS ( [Returns Profit Impact] ) )
+        VAR w = INT ( DIVIDE ( ABS ( v ), mx ) * 180 )
+        VAR txt = "-$" & FORMAT ( ABS ( v ) / 1000, "#,0" ) & "K"
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='34'>" &
+        "<text x='0' y='13' font-family='Segoe UI' font-size='12' fill='%23FAFAFA'>" & lbl & "</text>" &
+        "<text x='180' y='13' text-anchor='end' font-family='Segoe UI' font-size='12' font-weight='600' fill='%23EF4444'>" & txt & "</text>" &
+        "<rect x='0' y='22' width='180' height='7' rx='3.5' fill='%23262626'/>" &
+        "<rect x='0' y='22' width='" & w & "' height='7' rx='3.5' fill='%23EF4444'/></svg>"
+
+    MEASURE '_Measures'[SVG Attention Pill] =
+        VAR s = [Attention Status]
+        VAR fg = SWITCH ( s, "Critical", "%23F87171", "Review", "%23FB923C", "%234ADE80" )
+        VAR bg = SWITCH ( s, "Critical", "%232A0E0E", "Review", "%232A1608", "%2306210F" )
+        VAR bd = SWITCH ( s, "Critical", "%235B1C1C", "Review", "%235A2E10", "%2314532D" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='72' height='22'>" &
+        "<rect x='1' y='1' width='70' height='20' rx='10' fill='" & bg & "' stroke='" & bd & "'/>" &
+        "<text x='36' y='15' text-anchor='middle' font-family='Segoe UI' font-size='11' font-weight='600' fill='" & fg & "'>" & s & "</text></svg>"
+
+    MEASURE '_Measures'[SVG Customer Pill] =
+        VAR s = IF ( [Pocket Profit] < 0, "Loss", IF ( [Pocket Margin %] < 0.08, "Thin", "Healthy" ) )
+        VAR fg = SWITCH ( s, "Loss", "%23F87171", "Thin", "%23FB923C", "%234ADE80" )
+        VAR bg = SWITCH ( s, "Loss", "%232A0E0E", "Thin", "%232A1608", "%2306210F" )
+        VAR bd = SWITCH ( s, "Loss", "%235B1C1C", "Thin", "%235A2E10", "%2314532D" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='72' height='22'>" &
+        "<rect x='1' y='1' width='70' height='20' rx='10' fill='" & bg & "' stroke='" & bd & "'/>" &
+        "<text x='36' y='15' text-anchor='middle' font-family='Segoe UI' font-size='11' font-weight='600' fill='" & fg & "'>" & s & "</text></svg>"
+
+    MEASURE '_Measures'[SVG Rep Bar] =
+        VAR v = [Excess Discount pts]
+        VAR w = INT ( MIN ( ABS ( v ) / 5, 1 ) * 150 )
+        VAR x = IF ( v >= 0, 150, 150 - w )
+        VAR c = IF ( v > 1, "%23EF4444", "%23525252" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='16'>" &
+        "<rect x='0' y='5' width='300' height='7' rx='3.5' fill='%23262626'/>" &
+        "<rect x='" & x & "' y='5' width='" & w & "' height='7' rx='3.5' fill='" & c & "'/>" &
+        "<line x1='150' x2='150' y1='1' y2='15' stroke='%23737373'/></svg>"
+
+    MEASURE '_Measures'[SVG Rep Pill] =
+        IF (
+            [Excess Discount pts] > 1,
+            "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='16'>" &
+            "<rect x='1' y='1' width='58' height='14' rx='7' fill='%232A1608' stroke='%235A2E10'/>" &
+            "<text x='30' y='11.5' text-anchor='middle' font-family='Segoe UI' font-size='9' font-weight='600' fill='%23FB923C'>Review</text></svg>"
+        )
+
+    MEASURE '_Measures'[SVG Cost vs Price] =
+        VAR cst = [Cost Change %]
+        VAR prc = [Net Price Change %]
+        VAR wc = INT ( MIN ( ABS ( cst ) / 0.16, 1 ) * 300 )
+        VAR wp = INT ( MIN ( ABS ( prc ) / 0.16, 1 ) * 300 )
+        VAR cp = IF ( prc < 0, "%23F97316", "%233B82F6" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='18'>" &
+        "<rect x='0' y='2' width='300' height='5' rx='2.5' fill='%23262626'/>" &
+        "<rect x='0' y='2' width='" & wc & "' height='5' rx='2.5' fill='%23EF4444'/>" &
+        "<rect x='0' y='11' width='300' height='5' rx='2.5' fill='%23262626'/>" &
+        "<rect x='0' y='11' width='" & wp & "' height='5' rx='2.5' fill='" & cp & "'/></svg>"
+
+    MEASURE '_Measures'[SVG Lever Bar] =
+        VAR lbl = SELECTEDVALUE ( 'Lever Chart'[Lever] )
+        VAR v = [Lever Effect]
+        VAR mx = MAXX ( ALL ( 'Lever Chart'[Lever] ), [Lever Effect] )
+        VAR w = INT ( DIVIDE ( MAX ( v, 0 ), mx ) * 400 )
+        VAR txt = "+$" & FORMAT ( v / 1000, "#,0" ) & "K"
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='34'>" &
+        "<text x='0' y='13' font-family='Segoe UI' font-size='12' fill='%23FAFAFA'>" & lbl & "</text>" &
+        "<text x='400' y='13' text-anchor='end' font-family='Segoe UI' font-size='12' font-weight='600' fill='%2322C55E'>" & txt & "</text>" &
+        "<rect x='0' y='22' width='400' height='7' rx='3.5' fill='%23262626'/>" &
+        "<rect x='0' y='22' width='" & w & "' height='7' rx='3.5' fill='%2322C55E'/></svg>"
+
+    MEASURE '_Measures'[SVG Segment Sim] =
+        VAR lbl = SELECTEDVALUE ( dim_customer[segment] )
+        VAR a = [Pocket Profit]
+        VAR b = [Simulated Pocket Profit]
+        VAR mx = MAXX ( ALLSELECTED ( dim_customer[segment] ), [Simulated Pocket Profit] )
+        VAR wa = INT ( DIVIDE ( MAX ( a, 0 ), mx ) * 420 )
+        VAR wb = INT ( DIVIDE ( MAX ( b, 0 ), mx ) * 420 )
+        VAR fa = IF ( ABS ( a ) >= 1000000, FORMAT ( a / 1000000, "$#,0.00" ) & "M", FORMAT ( a / 1000, "$#,0" ) & "K" )
+        VAR fb = IF ( ABS ( b ) >= 1000000, FORMAT ( b / 1000000, "$#,0.00" ) & "M", FORMAT ( b / 1000, "$#,0" ) & "K" )
+        RETURN
+        "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='420' height='44'>" &
+        "<text x='0' y='13' font-family='Segoe UI' font-size='12' fill='%23FAFAFA'>" & lbl & "</text>" &
+        "<text x='420' y='13' text-anchor='end' font-family='Segoe UI' font-size='12' font-weight='600' fill='%2322C55E'>" & fa & " %E2%86%92 " & fb & "</text>" &
+        "<rect x='0' y='22' width='420' height='5' rx='2.5' fill='%23262626'/>" &
+        "<rect x='0' y='22' width='" & wa & "' height='5' rx='2.5' fill='%23737373'/>" &
+        "<rect x='0' y='31' width='420' height='5' rx='2.5' fill='%23262626'/>" &
+        "<rect x='0' y='31' width='" & wb & "' height='5' rx='2.5' fill='%2322C55E'/></svg>"
+
+EVALUATE { "Black Edition measures ready" }

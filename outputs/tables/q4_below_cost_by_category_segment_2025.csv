@@ -1,0 +1,18 @@
+category,segment,lines,net_sales,loss
+Beverages,National Chain,926,1028943.47,-124225.21
+Dairy,National Chain,770,1052804.56,-47134.79
+Dairy,Convenience Store,1383,127849.67,-7005.69
+Dairy,Regional Supermarket,348,168740.53,-5522.38
+Dairy,Independent Grocery,485,97792.52,-2998.78
+Dairy,HoReCa,516,77332.99,-2538.55
+Snacks,National Chain,148,136872.74,-2326.2
+Canned Goods,National Chain,51,95354.28,-1207.47
+Beverages,Convenience Store,192,15618.96,-466.49
+Canned Goods,Convenience Store,40,4119.18,-90.49
+Canned Goods,Independent Grocery,15,4330.55,-62.53
+Beverages,Independent Grocery,17,3155.73,-58.94
+Beverages,HoReCa,17,2570.14,-38.17
+Beverages,Regional Supermarket,4,1693.89,-29.35
+Canned Goods,Regional Supermarket,5,3228.85,-13.98
+Canned Goods,HoReCa,3,724.12,-8.43
+Frozen,Convenience Store,3,128.96,-1.6

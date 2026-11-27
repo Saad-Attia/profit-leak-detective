@@ -1,0 +1,78 @@
+sku,product_name,category,lines,net_sales,loss,avg_net_price,unit_cost,min_price_8pct
+SKU0064,Labneh Small,Dairy,284,161547.59,-11907.21,41.45,44.08,47.91
+SKU0029,Apple Juice Large,Beverages,71,70895.67,-11774.94,30.15,33.22,36.11
+SKU0010,Cold Brew Small,Beverages,48,72214.67,-9378.12,29.75,32.97,35.84
+SKU0002,Cola Small,Beverages,97,46632.29,-8618.45,27.39,29.71,32.29
+SKU0078,Cooking Cream Medium,Dairy,298,116696.44,-8200.18,31.1,33.05,35.92
+SKU0009,Apple Juice Small,Beverages,34,46885.97,-7386.25,26.01,29.68,32.26
+SKU0001,Orange Juice Small,Beverages,49,40625.62,-6846.84,27.79,30.72,33.39
+SKU0070,Low-Fat Milk Medium,Dairy,263,83925.77,-6723.23,25.84,27.61,30.02
+SKU0022,Cola Large,Beverages,42,44152.07,-6473.58,26.85,30.02,32.63
+SKU0008,Lemonade Small,Beverages,42,56083.03,-6289.43,27.76,30.42,33.07
+SKU0025,Energy Drink Large,Beverages,44,38750.8,-5316.93,21.34,23.64,25.7
+SKU0003,Sparkling Water Small,Beverages,30,47808.25,-4997.05,31.54,34.49,37.49
+SKU0006,Mango Nectar Small,Beverages,31,51462.79,-4948.22,27.24,29.83,32.42
+SKU0013,Sparkling Water Medium,Beverages,39,35470.87,-4723.01,26.41,28.79,31.29
+SKU0059,Full Cream Milk Small,Dairy,230,91713.49,-4681.51,28.39,29.66,32.24
+SKU0077,Feta Medium,Dairy,180,106667.18,-4410.32,37.69,39.25,42.66
+SKU0061,Greek Yogurt Small,Dairy,320,64163.7,-4261.86,16.24,17.24,18.74
+SKU0018,Lemonade Medium,Beverages,33,37393.43,-4148.77,27.17,29.96,32.56
+SKU0023,Sparkling Water Large,Beverages,36,33917.57,-4138.7,21.32,23.58,25.63
+SKU0080,Low-Fat Milk Large,Dairy,200,85925.54,-3581.81,27.18,28.37,30.84
+SKU0024,Iced Tea Large,Beverages,33,52199.94,-3433.15,23.38,24.94,27.11
+SKU0030,Cold Brew Large,Beverages,34,27973.39,-3259.11,13.57,15.04,16.35
+SKU0062,Cheddar Block Small,Dairy,148,87560.43,-3178.63,32.61,33.82,36.76
+SKU0017,Still Water Medium,Beverages,35,31924.27,-2968.8,17.47,19.1,20.76
+SKU0060,Low-Fat Milk Small,Dairy,146,102849.88,-2799.74,37.22,38.46,41.8
+SKU0027,Still Water Large,Beverages,29,20906.39,-2561.03,14.32,16.02,17.41
+SKU0004,Iced Tea Small,Beverages,37,15866.27,-2507.39,10.03,11.19,12.16
+SKU0021,Orange Juice Large,Beverages,24,28169.39,-2483.41,26.24,28.52,31.0
+SKU0007,Still Water Small,Beverages,38,24488.7,-2383.34,12.18,13.22,14.37
+SKU0012,Cola Medium,Beverages,46,28603.82,-2350.16,10.32,11.16,12.13
+SKU0015,Energy Drink Medium,Beverages,38,23669.57,-2342.55,11.46,12.39,13.47
+SKU0065,Cream Cheese Small,Dairy,270,45157.48,-2338.28,12.88,13.52,14.7
+SKU0063,Butter Small,Dairy,158,90706.89,-2317.55,34.17,35.29,38.36
+SKU0026,Mango Nectar Large,Beverages,24,26998.49,-2275.21,20.28,22.0,23.91
+SKU0011,Orange Juice Medium,Beverages,38,23544.02,-2267.56,11.33,12.31,13.38
+SKU0028,Lemonade Large,Beverages,44,19333.61,-2234.35,12.18,13.3,14.46
+SKU0020,Cold Brew Medium,Beverages,42,24218.56,-2213.86,11.57,12.63,13.73
+SKU0069,Full Cream Milk Medium,Dairy,125,101765.54,-2132.15,40.48,41.41,45.01
+SKU0072,Cheddar Block Medium,Dairy,147,97155.02,-2009.5,39.41,40.36,43.87
+SKU0075,Cream Cheese Medium,Dairy,150,79402.43,-1954.37,34.7,35.84,38.96
+SKU0014,Iced Tea Medium,Beverages,22,21420.05,-1925.56,15.73,17.06,18.54
+SKU0005,Energy Drink Small,Beverages,26,23148.39,-1742.85,15.72,16.9,18.37
+SKU0068,Cooking Cream Small,Dairy,140,51603.99,-1740.81,27.63,28.68,31.17
+SKU0016,Mango Nectar Medium,Beverages,28,21216.74,-1634.02,12.11,13.05,14.18
+SKU0073,Butter Medium,Dairy,139,61605.91,-1225.19,21.35,21.9,23.8
+SKU0019,Apple Juice Medium,Beverages,22,16007.56,-1195.52,13.7,14.66,15.93
+SKU0099,Tuna Chunks Small,Canned Goods,54,67946.81,-901.83,42.82,43.52,47.3
+SKU0074,Labneh Medium,Dairy,131,52040.12,-880.89,22.99,23.51,25.55
+SKU0038,Cheese Puffs Small,Snacks,25,27697.09,-623.5,20.37,20.87,22.68
+SKU0044,Choc Wafer Medium,Snacks,34,30652.01,-596.62,17.03,17.37,18.88
+SKU0079,Full Cream Milk Large,Dairy,79,22245.37,-417.79,20.77,21.26,23.11
+SKU0066,Drinking Yogurt Small,Dairy,38,12453.92,-255.15,36.48,37.27,40.51
+SKU0057,Popcorn Large,Snacks,7,12948.59,-215.89,25.65,26.12,28.39
+SKU0103,Tomato Paste Small,Canned Goods,9,17804.77,-192.65,40.7,41.09,44.66
+SKU0100,Chickpeas Small,Canned Goods,19,12922.66,-191.48,21.65,21.93,23.84
+SKU0053,Salted Peanuts Large,Snacks,7,6195.61,-177.69,19.06,19.55,21.25
+SKU0067,Feta Small,Dairy,35,7936.0,-150.94,20.65,21.17,23.01
+SKU0054,Choc Wafer Large,Snacks,19,9055.56,-142.86,8.33,8.47,9.21
+SKU0040,Rice Crackers Small,Snacks,7,12567.98,-116.6,25.2,25.42,27.63
+SKU0034,Choc Wafer Small,Snacks,8,4151.64,-112.83,9.4,9.67,10.51
+SKU0042,Tortilla Chips Medium,Snacks,6,7389.51,-85.61,21.49,21.73,23.62
+SKU0039,Mixed Nuts Small,Snacks,10,5555.36,-84.22,9.52,9.69,10.53
+SKU0113,Tomato Paste Medium,Canned Goods,16,8033.8,-82.6,15.54,15.76,17.13
+SKU0043,Salted Peanuts Medium,Snacks,6,4103.29,-62.51,12.91,13.1,14.24
+SKU0052,Tortilla Chips Large,Snacks,8,5375.96,-51.94,10.99,11.1,12.07
+SKU0058,Cheese Puffs Large,Snacks,8,6237.15,-40.28,12.8,12.89,14.01
+SKU0071,Greek Yogurt Medium,Dairy,11,883.82,-21.94,36.87,37.74,41.02
+SKU0033,Salted Peanuts Small,Snacks,3,4942.99,-15.65,23.22,23.28,25.3
+SKU0076,Drinking Yogurt Medium,Dairy,10,513.76,-11.14,17.75,18.1,19.67
+SKU0107,Mushrooms Small,Canned Goods,4,304.07,-5.53,18.94,19.35,21.03
+SKU0106,Sardines Small,Canned Goods,5,195.02,-3.92,13.97,14.21,15.45
+SKU0116,Sardines Medium,Canned Goods,2,177.45,-2.47,44.36,44.98,48.89
+SKU0133,Frozen Peas Medium,Frozen,3,128.96,-1.6,21.41,21.76,23.65
+SKU0105,Baked Beans Small,Canned Goods,2,88.43,-1.13,22.11,22.39,24.34
+SKU0121,Fava Beans Large,Canned Goods,1,43.61,-0.57,21.8,22.09,24.01
+SKU0104,Peeled Tomatoes Small,Canned Goods,1,205.14,-0.36,41.03,41.1,44.67
+SKU0118,Peaches Medium,Canned Goods,1,35.22,-0.36,17.61,17.79,19.34

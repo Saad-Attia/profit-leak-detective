@@ -1,0 +1,408 @@
+customer_id,customer_name,segment,region,city,rep_id,account_open_date,rebate_pct,payment_terms_days
+C0001,FreshCart Group,National Chain,Central,Riverton,R14,2021-06-01,0.07,45
+C0002,ValueWay Stores,National Chain,central ,Riverton,R14,2021-06-01,0.051,30
+C0003,DailyBasket,National Chain,Central,Riverton,R14,2021-06-01,0.058,30
+C0004,GreenAisle Markets,National Chain,Central,Riverton,R14,2021-06-01,0.042,30
+C0005,MegaThrift,National Chain,Central,Riverton,R14,2021-06-01,0.034,60
+C0006,CityPantry Group,National Chain,Central,Riverton,R14,2021-06-01,0.039,30
+C0007,PrimeShelf,National Chain,Central,Riverton,R14,2021-06-01,0.048,45
+C0008,HomeHarvest Stores,National Chain,Central,Riverton,R14,2021-06-01,0.042,45
+C0009,Crescent Supermarket Kingsford,Regional Supermarket,Central,Kingsford,R02,2023-01-01,0.009,0
+C0010,LOTUS MARKET BAYVIEW,Regional Supermarket,South,Bayview,R08,2021-10-01,0.006,15
+C0011,Oasis Hypermarket Southport,Regional Supermarket,South,Southport,R08,2021-10-01,0.015,15
+C0012,Garden Hypermarket Highmoor,Regional Supermarket,West,Highmoor,R13,2020-11-01,0.017,30
+C0013,Metro Market Riverton,Regional Supermarket,central ,Riverton,R01,2022-09-01,0.007,0
+C0014,  Village Supermarket Northgate,Regional Supermarket,North,Northgate,R06,2021-06-01,0.007,30
+C0015,Oasis Hypermarket Sandmere,Regional Supermarket,South,Sandmere,R07,2021-09-01,0.015,30
+C0016,Cedar Hypermarket Eastfield,Regional Supermarket,East,Eastfield,R11,2023-02-01,0.004,15
+C0017,Blue Door Market Kingsford,Regional Supermarket,Central,Kingsford,R01,2023-01-01,0.017,30
+C0018,Union Hypermarket Kingsford,Regional Supermarket,Central,Kingsford,R02,2021-02-01,0.009,0
+C0019,FAMILY MARKET RIVERTON,Regional Supermarket,Central,Riverton,R01,2023-02-01,0.006,0
+C0020,Al Noor Supermarket Sandmere,Regional Supermarket,South,Sandmere,R08,2020-11-01,0.013,0
+C0021,Crescent Supermarket Millbrook,Regional Supermarket,East,Millbrook,R11,2022-05-01,0.007,15
+C0022,Harbor Market Bayview,Regional Supermarket,South,Bayview,R09,2021-03-01,0.012,15
+C0023,Union Hypermarket Pinehill,Regional Supermarket,North,Pinehill,R05,2021-09-01,0.018,0
+C0024,Royal Supermarket Riverton,Regional Supermarket,Central,Riverton,R02,2020-11-01,0.009,0
+C0025,Blue Door Supermarket Bayview,Regional Supermarket,South,Bayview,R07,2020-07-01,0.02,30
+C0026,Harbor Market Sandmere,Regional Supermarket,South,Sandmere,R09,2021-09-01,0.016,30
+C0027,  Union Hypermarket Kingsford 6,Regional Supermarket,Central,Kingsford,R03,2021-11-01,0.019,0
+C0028,GARDEN HYPERMARKET EASTFIELD,Regional Supermarket,East,Eastfield,R11,2021-02-01,0.001,30
+C0029,Happy Supermarket Redrock,Regional Supermarket,WEST,Redrock,R13,2023-04-01,0.016,0
+C0030,Village Hypermarket Millbrook,Regional Supermarket,East,Millbrook,R10,2022-09-01,0.007,0
+C0031,Harbor Market Millbrook,Regional Supermarket,East,Millbrook,R11,2020-01-01,0.016,30
+C0032,Metro Hypermarket Southport,Regional Supermarket,South,Southport,R07,2020-01-01,0.014,15
+C0033,Star Supermarket Redrock,Regional Supermarket,West,Redrock,R13,2021-05-01,0.017,30
+C0034,Corner Supermarket Bayview,Regional Supermarket,South,Bayview,R08,2021-10-01,0.002,30
+C0035,Oasis Market Eastfield,Regional Supermarket,East,Eastfield,R11,2022-02-01,0.003,0
+C0036,Garden Hypermarket Highmoor 2,Regional Supermarket,WEST,Highmoor,R13,2021-04-01,0.01,0
+C0037,FAMILY HYPERMARKET RIVERTON,Regional Supermarket,Central,Riverton,R02,2020-01-01,0.013,15
+C0038,Cedar Hypermarket Redrock,Regional Supermarket,West,Redrock,R13,2021-10-01,0.018,15
+C0039,Oasis Market Westvale,Regional Supermarket,West,Westvale,R12,2022-06-01,0.013,30
+C0040,  Golden Hypermarket Northgate,Regional Supermarket,North,Northgate,R04,2022-11-01,0.011,15
+C0041,Happy Market Pinehill,Regional Supermarket,Nrth,Pinehill,R06,2023-04-01,0.016,0
+C0042,Lotus Supermarket Kingsford,Regional Supermarket,Central,Kingsford,R01,2020-05-01,0.019,30
+C0043,Silver Market Riverton,Regional Supermarket,Central,Riverton,R03,2020-05-01,0.005,30
+C0044,Royal Supermarket Bayview,Regional Supermarket,South,Bayview,R09,2020-03-01,0.008,30
+C0045,Royal Hypermarket Kingsford,Regional Supermarket,Central,Kingsford,R03,2021-04-01,0.0,15
+C0046,OASIS SUPERMARKET KINGSFORD,Regional Supermarket,central ,Kingsford,R01,2021-08-01,0.009,15
+C0047,Royal Hypermarket Kingsford 3,Regional Supermarket,Central,Kingsford,R01,2023-01-01,0.005,15
+C0048,Happy Hypermarket Redrock,Regional Supermarket,West,Redrock,R12,2022-11-01,0.001,30
+C0049,Village Supermarket Westvale,Regional Supermarket,West,Westvale,R12,2022-09-01,0.012,0
+C0050,Harbor Market Southport,Regional Supermarket,South,Southport,R08,2021-08-01,0.012,0
+C0051,Star Supermarket Millbrook,Regional Supermarket,East,Millbrook,R11,2020-10-01,0.012,30
+C0052,Corner Supermarket Pinehill,Regional Supermarket,North,Pinehill,R06,2021-10-01,0.004,30
+C0053,  Metro Supermarket Pinehill,Regional Supermarket,North,Pinehill,R04,2022-06-01,0.003,15
+C0054,Union Supermarket Eastfield,Regional Supermarket,East,Eastfield,R11,2020-05-01,0.003,30
+C0055,CEDAR HYPERMARKET EASTFIELD 2,Regional Supermarket,East,Eastfield,R10,2023-04-01,0.0,15
+C0056,Metro Supermarket Kingsford,Regional Supermarket,Central,Kingsford,R02,2022-12-01,0.012,30
+C0057,Star Hypermarket Southport,Regional Supermarket,South,Southport,R07,2022-03-01,0.0,0
+C0058,Star Hypermarket Westvale,Regional Supermarket,West,Westvale,R13,2022-01-01,0.008,15
+C0059,Cedar Foods Sandmere,Independent Grocery,South,Sandmere,R07,2023-04-01,0.0,30
+C0060,Village Grocery Bayview,Independent Grocery,South,Bayview,R08,2022-07-01,0.0,30
+C0061,Harbor Grocery Westvale,Independent Grocery,WEST,Westvale,R12,2023-01-01,0.0,30
+C0062,Crescent Mini Market Millbrook,Independent Grocery,East,Millbrook,R11,2021-05-01,0.0,15
+C0063,Cedar Foods Bayview,Independent Grocery,South,Bayview,R07,2022-04-01,0.0,30
+C0064,FAMILY FOODS EASTFIELD,Independent Grocery,East,Eastfield,R10,2023-04-01,0.0,15
+C0065,Lotus Mini Market Northgate,Independent Grocery,North,Northgate,R05,2021-04-01,0.0,15
+C0066,  Palm Mini Market Riverton,Independent Grocery,Central,Riverton,R02,2022-07-01,0.0,0
+C0067,Golden Grocery Highmoor,Independent Grocery,West,Highmoor,R12,2021-07-01,0.0,30
+C0068,Sunrise Mini Market Riverton,Independent Grocery,Central,Riverton,R02,2021-07-01,0.0,0
+C0069,Metro Grocery Sandmere,Independent Grocery,South,Sandmere,R08,2020-10-01,0.0,0
+C0070,Crescent Foods Westvale,Independent Grocery,West,Westvale,R13,2021-03-01,0.0,30
+C0071,Union Foods Bayview,Independent Grocery,South,Bayview,R07,2022-06-01,0.0,15
+C0072,Palm Mini Market Riverton 5,Independent Grocery,Central,Riverton,R03,2022-06-01,0.0,0
+C0073,FAMILY MINI MARKET MILLBROOK,Independent Grocery,East,Millbrook,R10,2023-02-01,0.0,15
+C0074,Golden Mini Market Westvale,Independent Grocery,West,Westvale,R13,2021-05-01,0.0,0
+C0075,Royal Mini Market Highmoor,Independent Grocery,West,Highmoor,R13,2021-10-01,0.0,0
+C0076,Cedar Grocery Highmoor,Independent Grocery,West,Highmoor,R12,2021-09-01,0.0,30
+C0077,Corner Grocery Riverton,Independent Grocery,Central,Riverton,R02,2023-03-01,0.0,15
+C0078,Star Foods Kingsford,Independent Grocery,Central,Kingsford,R01,2020-02-01,0.0,30
+C0079,  Blue Door Mini Market Bayview,Independent Grocery,South,Bayview,R09,2021-10-01,0.0,30
+C0080,Golden Foods Sandmere,Independent Grocery,South,Sandmere,R09,2023-01-01,0.0,0
+C0081,Cedar Mini Market Sandmere,Independent Grocery,South,Sandmere,R07,2022-08-01,0.0,0
+C0082,SILVER GROCERY KINGSFORD,Independent Grocery,Central,Kingsford,R02,2020-12-01,0.0,15
+C0083,Palm Grocery Southport,Independent Grocery,South,Southport,R08,2023-01-01,0.0,0
+C0084,Happy Mini Market Bayview,Independent Grocery,South,Bayview,R07,2023-03-01,0.0,30
+C0085,Blue Door Grocery Kingsford,Independent Grocery,Central,Kingsford,R03,2022-12-01,0.0,30
+C0086,Village Foods Pinehill,Independent Grocery,North,Pinehill,R05,2021-03-01,0.0,0
+C0087,Village Grocery Sandmere,Independent Grocery,South,Sandmere,R09,2021-05-01,0.0,15
+C0088,Sunrise Grocery Riverton,Independent Grocery,Central,Riverton,R03,2022-03-01,0.0,0
+C0089,Village Foods Riverton,Independent Grocery,Central,Riverton,R03,2022-07-01,0.0,0
+C0090,Star Foods Riverton,Independent Grocery,Central,Riverton,R01,2023-01-01,0.0,30
+C0091,GARDEN GROCERY REDROCK,Independent Grocery,West,Redrock,R13,2021-01-01,0.0,15
+C0092,  Oasis Mini Market Millbrook,Independent Grocery,East,Millbrook,R10,2022-05-01,0.0,30
+C0093,Metro Mini Market Westvale,Independent Grocery,West,Westvale,R12,2022-05-01,0.0,15
+C0094,Royal Foods Highmoor,Independent Grocery,West,Highmoor,R13,2023-02-01,0.0,30
+C0095,Harbor Grocery Bayview,Independent Grocery,South,Bayview,R08,2022-01-01,0.0,15
+C0096,Harbor Foods Northgate,Independent Grocery,North,Northgate,R04,2020-12-01,0.0,30
+C0097,Family Grocery Eastfield,Independent Grocery,East,Eastfield,R11,2022-04-01,0.0,30
+C0098,Al Noor Mini Market Kingsford,Independent Grocery,Central,Kingsford,R01,2021-05-01,0.0,15
+C0099,Family Grocery Kingsford,Independent Grocery,Central,Kingsford,R03,2021-08-01,0.0,30
+C0100,OASIS MINI MARKET RIVERTON,Independent Grocery,central ,Riverton,R02,2020-10-01,0.0,15
+C0101,Corner Grocery Westvale,Independent Grocery,West,Westvale,R13,2022-04-01,0.0,30
+C0102,Palm Foods Northgate,Independent Grocery,North,Northgate,R04,2022-07-01,0.0,15
+C0103,Family Foods Northgate,Independent Grocery,North,Northgate,R04,2022-05-01,0.0,30
+C0104,Royal Grocery Highmoor,Independent Grocery,West,Highmoor,R12,2021-01-01,0.0,0
+C0105,  Al Noor Mini Market Eastfield,Independent Grocery,East,Eastfield,R10,2022-03-01,0.0,0
+C0106,Oasis Mini Market Millbrook 7,Independent Grocery,East,Millbrook,R11,2020-02-01,0.0,0
+C0107,Oasis Foods Eastfield,Independent Grocery,East,Eastfield,R11,2022-05-01,0.0,15
+C0108,Cedar Grocery Millbrook,Independent Grocery,East,Millbrook,R10,2021-02-01,0.0,0
+C0109,SILVER MINI MARKET HIGHMOOR,Independent Grocery,West,Highmoor,R12,2020-08-01,0.0,15
+C0110,Crescent Grocery Redrock,Independent Grocery,West,Redrock,R12,2021-07-01,0.0,15
+C0111,Palm Foods Bayview,Independent Grocery,South,Bayview,R09,2021-07-01,0.0,0
+C0112,Star Foods Riverton 2,Independent Grocery,Central,Riverton,R02,2022-10-01,0.0,0
+C0113,Lotus Mini Market Pinehill,Independent Grocery,North,Pinehill,R05,2022-04-01,0.0,15
+C0114,Golden Foods Sandmere 8,Independent Grocery,South,Sandmere,R09,2020-04-01,0.0,15
+C0115,Golden Grocery Southport,Independent Grocery,South,Southport,R08,2022-04-01,0.0,0
+C0116,Corner Mini Market Riverton,Independent Grocery,Central,Riverton,R01,2022-11-01,0.0,15
+C0117,Blue Door Grocery Kingsford 7,Independent Grocery,Central,Kingsford,R02,2022-12-01,0.0,0
+C0118,CORNER GROCERY SOUTHPORT,Independent Grocery,South,Southport,R08,2022-11-01,0.0,0
+C0119,Blue Door Grocery Kingsford 4,Independent Grocery,central ,Kingsford,R01,2021-07-01,0.0,30
+C0120,Oasis Mini Market Westvale,Independent Grocery,West,Westvale,R12,2020-12-01,0.0,30
+C0121,Family Grocery Kingsford 8,Independent Grocery,Central,Kingsford,R01,2020-05-01,0.0,30
+C0122,Crescent Mini Market Northgate,Independent Grocery,North,Northgate,R06,2023-02-01,0.0,0
+C0123,Happy Grocery Bayview,Independent Grocery,South,Bayview,R08,2022-03-01,0.0,0
+C0124,Golden Mini Market Riverton,Independent Grocery,Central,Riverton,R01,2022-05-01,0.0,30
+C0125,Union Foods Kingsford,Independent Grocery,Central,Kingsford,R02,2023-02-01,0.0,30
+C0126,Village Mini Market Northgate,Independent Grocery,North,Northgate,R06,2023-04-01,0.0,0
+C0127,GOLDEN FOODS RIVERTON,Independent Grocery,Central,Riverton,R03,2020-10-01,0.0,15
+C0128,Silver Mini Market Pinehill,Independent Grocery,North,Pinehill,R06,2022-11-01,0.0,15
+C0129,Family Foods Southport,Independent Grocery,South,Southport,R08,2020-04-01,0.0,30
+C0130,Corner Grocery Redrock,Independent Grocery,WEST,Redrock,R12,2021-04-01,0.0,30
+C0131,  Village Mini Market Sandmere,Independent Grocery,South,Sandmere,R08,2020-06-01,0.0,15
+C0132,Garden Foods Pinehill,Independent Grocery,North,Pinehill,R04,2020-03-01,0.0,0
+C0133,Corner Mini Market Kingsford,Independent Grocery,Central,Kingsford,R03,2022-08-01,0.0,15
+C0134,Lotus Grocery Riverton,Independent Grocery,Central,Riverton,R01,2021-08-01,0.0,15
+C0135,Family Grocery Eastfield 6,Independent Grocery,East,Eastfield,R11,2022-03-01,0.0,0
+C0136,OASIS MINI MARKET RIVERTON 8,Independent Grocery,Central,Riverton,R01,2021-08-01,0.0,30
+C0137,Royal Foods Redrock,Independent Grocery,West,Redrock,R12,2022-07-01,0.0,30
+C0138,Sunrise Foods Kingsford,Independent Grocery,Central,Kingsford,R02,2022-11-01,0.0,15
+C0139,Cedar Grocery Westvale,Independent Grocery,WEST,Westvale,R12,2021-09-01,0.0,0
+C0140,Corner Foods Millbrook,Independent Grocery,East,Millbrook,R11,2022-01-01,0.0,30
+C0141,Silver Foods Bayview,Independent Grocery,South,Bayview,R08,2020-09-01,0.0,30
+C0142,Golden Mini Market Northgate,Independent Grocery,North,Northgate,R05,2020-05-01,0.0,0
+C0143,Sunrise Grocery Highmoor,Independent Grocery,West,Highmoor,R13,2021-01-01,0.0,0
+C0144,  Metro Foods Bayview,Independent Grocery,South,Bayview,R09,2020-02-01,0.0,0
+C0145,PALM FOODS RIVERTON,Independent Grocery,Central,Riverton,R02,2020-11-01,0.0,15
+C0146,Crescent Foods Bayview,Independent Grocery,South,Bayview,R09,2020-06-01,0.0,15
+C0147,Royal Foods Highmoor 2,Independent Grocery,West,Highmoor,R12,2021-10-01,0.0,0
+C0148,Family Foods Pinehill,Independent Grocery,North,Pinehill,R06,2022-05-01,0.0,30
+C0149,Oasis Grocery Southport,Independent Grocery,South,Southport,R08,2021-09-01,0.0,15
+C0150,Sunrise Foods Northgate,Independent Grocery,North,Northgate,R06,2021-12-01,0.0,30
+C0151,Star Mini Market Bayview,Independent Grocery,South,Bayview,R09,2022-05-01,0.0,0
+C0152,Golden Foods Northgate,Independent Grocery,North,Northgate,R05,2022-07-01,0.0,15
+C0153,Lotus Mini Market Highmoor,Independent Grocery,West,Highmoor,R12,2022-02-01,0.0,30
+C0154,ROYAL GROCERY KINGSFORD,Independent Grocery,Central,Kingsford,R03,2021-04-01,0.0,0
+C0155,Sunrise Foods Kingsford 7,Independent Grocery,Central,Kingsford,R01,2020-07-01,0.0,0
+C0156,Garden Foods Millbrook,Independent Grocery,East,Millbrook,R10,2020-08-01,0.0,15
+C0157,  Corner Foods Northgate,Independent Grocery,North,Northgate,R05,2021-11-01,0.0,0
+C0158,Union Grocery Millbrook,Independent Grocery,East,Millbrook,R10,2021-06-01,0.0,0
+C0159,Palm Foods Southport,Independent Grocery,South,Southport,R08,2020-10-01,0.0,15
+C0160,Royal Foods Northgate,Independent Grocery,North,Northgate,R06,2021-03-01,0.0,15
+C0161,Metro Mini Market Bayview,Independent Grocery,South,Bayview,R07,2023-04-01,0.0,15
+C0162,Sunrise Foods Sandmere,Independent Grocery,South,Sandmere,R09,2020-01-01,0.0,15
+C0163,UNION FOODS BAYVIEW 2,Independent Grocery,South,Bayview,R08,2022-05-01,0.0,0
+C0164,Golden Grocery Westvale,Independent Grocery,West,Westvale,R13,2020-06-01,0.0,15
+C0165,Crescent Grocery Pinehill,Independent Grocery,North,Pinehill,R05,2020-09-01,0.0,0
+C0166,Al Noor Foods Northgate,Independent Grocery,North,Northgate,R06,2022-03-01,0.0,0
+C0167,Star Foods Highmoor,Independent Grocery,West,Highmoor,R12,2023-04-01,0.0,30
+C0168,Silver Mini Market Riverton,Independent Grocery,Central,Riverton,R02,2022-04-01,0.0,0
+C0169,Harbor Grocery Highmoor,Independent Grocery,West,Highmoor,R12,2021-11-01,0.0,15
+C0170,  Cedar Grocery Sandmere,Independent Grocery,South,Sandmere,R09,2020-06-01,0.0,15
+C0171,Blue Door Mini Market Kingsford,Independent Grocery,Central,Kingsford,R02,2022-06-01,0.0,30
+C0172,FAMILY FOODS PINEHILL 2,Independent Grocery,Nrth,Pinehill,R05,2020-10-01,0.0,15
+C0173,Golden Mini Market Riverton 5,Independent Grocery,Central,Riverton,R01,2020-10-01,0.0,0
+C0174,Corner Grocery Kingsford,Independent Grocery,Central,Kingsford,R01,2020-12-01,0.0,0
+C0175,Star Grocery Redrock,Independent Grocery,WEST,Redrock,R12,2020-04-01,0.0,0
+C0176,Family Foods Redrock,Independent Grocery,West,Redrock,R13,2020-03-01,0.0,0
+C0177,Crescent Grocery Bayview,Independent Grocery,South,Bayview,R09,2020-05-01,0.0,30
+C0178,Silver Foods Westvale,Independent Grocery,West,Westvale,R13,2020-02-01,0.0,30
+C0179,Harbor Mini Market Riverton,Independent Grocery,Central,Riverton,R02,2021-09-01,0.0,15
+C0180,Star Foods Kingsford 3,Independent Grocery,Central,Kingsford,R03,2021-09-01,0.0,0
+C0181,SILVER MINI MARKET HIGHMOOR 4,Independent Grocery,West,Highmoor,R12,2021-03-01,0.0,15
+C0182,Sunrise Grocery Pinehill,Independent Grocery,North,Pinehill,R06,2021-09-01,0.0,30
+C0183,  Family Mini Market Northgate,Independent Grocery,North,Northgate,R06,2020-10-01,0.0,15
+C0184,Lotus Mini Market Eastfield,Independent Grocery,East,Eastfield,R10,2021-08-01,0.0,30
+C0185,Village Foods Northgate,Independent Grocery,North,Northgate,R05,2020-03-01,0.0,0
+C0186,Family Mini Market Highmoor,Independent Grocery,West,Highmoor,R12,2021-10-01,0.0,15
+C0187,Garden Grocery Westvale,Independent Grocery,WEST,Westvale,R12,2022-02-01,0.0,0
+C0188,Family Grocery Bayview,Independent Grocery,South,Bayview,R07,2022-12-01,0.0,0
+C0189,Village Foods Westvale,Independent Grocery,West,Westvale,R12,2023-01-01,0.0,0
+C0190,SUNRISE GROCERY RIVERTON 8,Independent Grocery,Central,Riverton,R02,2020-04-01,0.0,0
+C0191,Blue Door Foods Eastfield,Independent Grocery,East,Eastfield,R11,2021-01-01,0.0,15
+C0192,Sunrise Grocery Northgate,Independent Grocery,North,Northgate,R05,2021-05-01,0.0,30
+C0193,Silver Foods Highmoor,Independent Grocery,West,Highmoor,R12,2022-02-01,0.0,30
+C0194,Harbor Foods Riverton,Independent Grocery,Central,Riverton,R03,2020-05-01,0.0,0
+C0195,Golden Mini Market Bayview,Independent Grocery,South,Bayview,R08,2023-01-01,0.0,0
+C0196,  Sunrise Mini Market Kingsford,Independent Grocery,Central,Kingsford,R02,2021-06-01,0.0,0
+C0197,Happy Mini Market Kingsford,Independent Grocery,Central,Kingsford,R03,2020-02-01,0.0,30
+C0198,Silver Mini Market Highmoor 6,Independent Grocery,WEST,Highmoor,R12,2022-01-01,0.0,30
+C0199,HAPPY MINI MARKET REDROCK,Independent Grocery,West,Redrock,R12,2021-07-01,0.0,15
+C0200,Al Noor Mini Market Riverton,Independent Grocery,Central,Riverton,R02,2021-06-01,0.0,15
+C0201,Silver Grocery Riverton,Independent Grocery,Central,Riverton,R03,2021-05-01,0.0,15
+C0202,Family Foods Eastfield 8,Independent Grocery,East,Eastfield,R10,2021-09-01,0.0,30
+C0203,Star Foods Northgate,Independent Grocery,North,Northgate,R05,2020-11-01,0.0,0
+C0204,Metro Mini Market Bayview 8,Independent Grocery,South,Bayview,R09,2021-01-01,0.0,0
+C0205,Blue Door Foods Northgate,Independent Grocery,North,Northgate,R06,2023-01-01,0.0,30
+C0206,Golden Mini Market Southport,Independent Grocery,South,Southport,R08,2021-12-01,0.0,15
+C0207,Blue Door Grocery Pinehill,Independent Grocery,North,Pinehill,R04,2021-10-01,0.0,30
+C0208,SILVER GROCERY SOUTHPORT,Independent Grocery,South,Southport,R07,2020-05-01,0.0,0
+C0209,  Union Kiosk Kingsford,Convenience Store,Central,Kingsford,R02,2022-03-01,0.0,15
+C0210,Blue Door Express Pinehill,Convenience Store,North,Pinehill,R06,2022-03-01,0.0,0
+C0211,Lotus 24/7 Kingsford,Convenience Store,Central,Kingsford,R01,2022-03-01,0.0,30
+C0212,Garden Kiosk Southport,Convenience Store,South,Southport,R07,2022-03-01,0.0,15
+C0213,Cedar Express Pinehill,Convenience Store,North,Pinehill,R05,2022-03-01,0.0,0
+C0214,Al Noor Express Eastfield,Convenience Store,East,Eastfield,R10,2022-03-01,0.0,15
+C0215,Family Quick Shop Millbrook,Convenience Store,East,Millbrook,R11,2022-03-01,0.0,15
+C0216,Al Noor 24/7 Kingsford,Convenience Store,Central,Kingsford,R01,2022-03-01,0.0,0
+C0217,LOTUS 24/7 RIVERTON,Convenience Store,Central,Riverton,R03,2022-03-01,0.0,15
+C0218,Silver Quick Shop Westvale,Convenience Store,West,Westvale,R13,2022-03-01,0.0,0
+C0219,Golden Quick Shop Westvale,Convenience Store,West,Westvale,R13,2022-03-01,0.0,0
+C0220,Blue Door Quick Shop Bayview,Convenience Store,South,Bayview,R08,2022-03-01,0.0,15
+C0221,Golden 24/7 Kingsford,Convenience Store,Central,Kingsford,R03,2022-03-01,0.0,15
+C0222,  Garden Kiosk Westvale,Convenience Store,West,Westvale,R12,2022-03-01,0.0,15
+C0223,Oasis Quick Shop Bayview,Convenience Store,South,Bayview,R09,2022-03-01,0.0,15
+C0224,Family Quick Shop Redrock,Convenience Store,West,Redrock,R13,2022-03-01,0.0,15
+C0225,Oasis Kiosk Millbrook,Convenience Store,East,Millbrook,R11,2022-03-01,0.0,30
+C0226,HAPPY 24/7 RIVERTON,Convenience Store,Central,Riverton,R02,2022-03-01,0.0,30
+C0227,Royal 24/7 Highmoor,Convenience Store,West,Highmoor,R13,2022-03-01,0.0,0
+C0228,Metro Quick Shop Kingsford,Convenience Store,Central,Kingsford,R02,2022-03-01,0.0,15
+C0229,Oasis Express Eastfield,Convenience Store,East,Eastfield,R10,2022-03-01,0.0,30
+C0230,Star Express Bayview,Convenience Store,South,Bayview,R07,2022-03-01,0.0,0
+C0231,Blue Door Kiosk Sandmere,Convenience Store,South,Sandmere,R07,2022-03-01,0.0,0
+C0232,Palm 24/7 Eastfield,Convenience Store,East,Eastfield,R10,2022-03-01,0.0,15
+C0233,Metro Express Sandmere,Convenience Store,South,Sandmere,R08,2022-03-01,0.0,30
+C0234,Crescent Kiosk Kingsford,Convenience Store,Central,Kingsford,R03,2022-03-01,0.0,30
+C0235,SILVER 24/7 SOUTHPORT,Convenience Store,South,Southport,R09,2022-03-01,0.0,30
+C0236,Royal Kiosk Kingsford,Convenience Store,Central,Kingsford,R03,2022-03-01,0.0,30
+C0237,Al Noor Express Redrock,Convenience Store,West,Redrock,R12,2022-03-01,0.0,0
+C0238,Village 24/7 Riverton,Convenience Store,Central,Riverton,R03,2022-03-01,0.0,0
+C0239,Garden Quick Shop Northgate,Convenience Store,North,Northgate,R06,2024-12-01,0.0,30
+C0240,Blue Door 24/7 Northgate,Convenience Store,North,Northgate,R04,2024-11-01,0.0,15
+C0241,Blue Door Express Northgate,Convenience Store,North,Northgate,R04,2024-07-01,0.0,0
+C0242,Blue Door Express Kingsford,Convenience Store,Central,Kingsford,R02,2024-04-01,0.0,30
+C0243,Al Noor 24/7 Southport,Convenience Store,South,Southport,R07,2024-06-01,0.0,15
+C0244,ROYAL KIOSK KINGSFORD 4,Convenience Store,Central,Kingsford,R03,2024-10-01,0.0,15
+C0245,Royal Quick Shop Highmoor,Convenience Store,West,Highmoor,R12,2024-02-01,0.0,15
+C0246,Village Quick Shop Kingsford,Convenience Store,Central,Kingsford,R01,2024-04-01,0.0,15
+C0247,Star Express Riverton,Convenience Store,Central,Riverton,R02,2024-03-01,0.0,15
+C0248,  Al Noor Kiosk Riverton,Convenience Store,Central,Riverton,R02,2024-03-01,0.0,0
+C0249,Royal Kiosk Bayview,Convenience Store,South,Bayview,R09,2024-10-01,0.0,0
+C0250,Union 24/7 Eastfield,Convenience Store,East,Eastfield,R11,2024-04-01,0.0,15
+C0251,Harbor Kiosk Kingsford,Convenience Store,Central,Kingsford,R01,2024-01-01,0.0,15
+C0252,Star 24/7 Kingsford,Convenience Store,Central,Kingsford,R03,2024-05-01,0.0,30
+C0253,METRO KIOSK NORTHGATE,Convenience Store,North,Northgate,R04,2024-04-01,0.0,30
+C0254,Star Express Pinehill,Convenience Store,North,Pinehill,R05,2024-07-01,0.0,15
+C0255,Star Quick Shop Eastfield,Convenience Store,East,Eastfield,R11,2024-12-01,0.0,0
+C0256,Golden Kiosk Southport,Convenience Store,South,Southport,R08,2024-10-01,0.0,30
+C0257,Garden Express Southport,Convenience Store,South,Southport,R08,2024-01-01,0.0,15
+C0258,Harbor Express Kingsford,Convenience Store,Central,Kingsford,R01,2024-02-01,0.0,0
+C0259,Garden Express Southport 5,Convenience Store,South,Southport,R08,2024-06-01,0.0,0
+C0260,Cedar 24/7 Westvale,Convenience Store,West,Westvale,R12,2024-12-01,0.0,0
+C0261,  Harbor Express Northgate,Convenience Store,North,Northgate,R05,2024-09-01,0.0,15
+C0262,LOTUS KIOSK MILLBROOK,Convenience Store,East,Millbrook,R10,2024-02-01,0.0,15
+C0263,Blue Door 24/7 Highmoor,Convenience Store,WEST,Highmoor,R13,2024-06-01,0.0,0
+C0264,Happy Express Pinehill,Convenience Store,North,Pinehill,R04,2024-07-01,0.0,0
+C0265,Family Express Southport,Convenience Store,South,Southport,R08,2024-09-01,0.0,15
+C0266,Corner 24/7 Westvale,Convenience Store,West,Westvale,R13,2024-11-01,0.0,30
+C0267,Al Noor Kiosk Highmoor,Convenience Store,West,Highmoor,R12,2024-06-01,0.0,15
+C0268,Lotus Quick Shop Millbrook,Convenience Store,East,Millbrook,R11,2024-12-01,0.0,15
+C0269,Garden Kiosk Riverton,Convenience Store,Central,Riverton,R02,2024-02-01,0.0,30
+C0270,Royal Kiosk Pinehill,Convenience Store,North,Pinehill,R06,2024-09-01,0.0,0
+C0271,GOLDEN QUICK SHOP NORTHGATE,Convenience Store,North,Northgate,R06,2024-08-01,0.0,15
+C0272,Metro Kiosk Millbrook,Convenience Store,East,Millbrook,R10,2024-12-01,0.0,30
+C0273,Sunrise Express Sandmere,Convenience Store,South,Sandmere,R08,2024-10-01,0.0,15
+C0274,  Palm Express Highmoor,Convenience Store,West,Highmoor,R12,2024-01-01,0.0,0
+C0275,Crescent 24/7 Millbrook,Convenience Store,East,Millbrook,R10,2024-11-01,0.0,0
+C0276,Royal Kiosk Riverton,Convenience Store,Central,Riverton,R03,2024-02-01,0.0,0
+C0277,Royal Kiosk Northgate,Convenience Store,Nrth,Northgate,R06,2024-09-01,0.0,15
+C0278,Royal Kiosk Bayview 6,Convenience Store,South,Bayview,R07,2024-01-01,0.0,0
+C0279,Union Kiosk Westvale,Convenience Store,West,Westvale,R13,2024-02-01,0.0,30
+C0280,BLUE DOOR EXPRESS SOUTHPORT,Convenience Store,South,Southport,R09,2024-10-01,0.0,15
+C0281,Sunrise Express Westvale,Convenience Store,West,Westvale,R13,2024-06-01,0.0,30
+C0282,Palm Express Northgate,Convenience Store,North,Northgate,R04,2024-07-01,0.0,30
+C0283,Corner 24/7 Northgate,Convenience Store,North,Northgate,R04,2024-11-01,0.0,30
+C0284,Golden Quick Shop Kingsford,Convenience Store,Central,Kingsford,R02,2024-01-01,0.0,0
+C0285,Sunrise 24/7 Eastfield,Convenience Store,East,Eastfield,R10,2024-08-01,0.0,0
+C0286,Star Express Redrock,Convenience Store,West,Redrock,R13,2024-03-01,0.0,0
+C0287,  Metro Express Millbrook,Convenience Store,East,Millbrook,R10,2024-10-01,0.0,30
+C0288,Harbor 24/7 Westvale,Convenience Store,West,Westvale,R13,2024-12-01,0.0,15
+C0289,OASIS KIOSK RIVERTON,Convenience Store,Central,Riverton,R03,2025-01-01,0.0,30
+C0290,Village 24/7 Kingsford,Convenience Store,Central,Kingsford,R01,2025-07-01,0.0,0
+C0291,Garden 24/7 Millbrook,Convenience Store,East,Millbrook,R11,2025-06-01,0.0,0
+C0292,Blue Door Quick Shop Millbrook,Convenience Store,East,Millbrook,R10,2025-07-01,0.0,30
+C0293,Lotus Kiosk Bayview,Convenience Store,South,Bayview,R09,2025-01-01,0.0,15
+C0294,Crescent Express Millbrook,Convenience Store,East,Millbrook,R10,2025-08-01,0.0,30
+C0295,Oasis 24/7 Riverton,Convenience Store,Central,Riverton,R03,2025-08-01,0.0,0
+C0296,Union Express Eastfield,Convenience Store,East,Eastfield,R11,2025-06-01,0.0,30
+C0297,Oasis Express Millbrook,Convenience Store,East,Millbrook,R10,2025-04-01,0.0,0
+C0298,OASIS 24/7 REDROCK,Convenience Store,West,Redrock,R12,2025-03-01,0.0,30
+C0299,Union Quick Shop Eastfield,Convenience Store,East,Eastfield,R11,2025-01-01,0.0,0
+C0300,  Metro Quick Shop Westvale,Convenience Store,West,Westvale,R13,2025-05-01,0.0,30
+C0301,Harbor 24/7 Riverton,Convenience Store,Central,Riverton,R02,2025-09-01,0.0,15
+C0302,Oasis 24/7 Highmoor,Convenience Store,West,Highmoor,R12,2025-06-01,0.0,0
+C0303,Union Express Riverton,Convenience Store,Central,Riverton,R01,2025-02-01,0.0,15
+C0304,Palm 24/7 Southport,Convenience Store,South,Southport,R09,2025-06-01,0.0,0
+C0305,Crescent Quick Shop Millbrook,Convenience Store,East,Millbrook,R10,2025-06-01,0.0,0
+C0306,Cedar Kiosk Sandmere,Convenience Store,South,Sandmere,R07,2025-04-01,0.0,0
+C0307,FAMILY KIOSK NORTHGATE,Convenience Store,North,Northgate,R06,2025-05-01,0.0,15
+C0308,Oasis Kiosk Northgate,Convenience Store,North,Northgate,R05,2025-05-01,0.0,15
+C0309,Star Express Kingsford,Convenience Store,Central,Kingsford,R01,2025-05-01,0.0,0
+C0310,Crescent Express Sandmere,Convenience Store,South,Sandmere,R09,2025-04-01,0.0,0
+C0311,Lotus Quick Shop Kingsford,Convenience Store,Central,Kingsford,R02,2025-07-01,0.0,0
+C0312,Corner Kiosk Highmoor,Convenience Store,WEST,Highmoor,R13,2025-09-01,0.0,30
+C0313,  Blue Door 24/7 Riverton,Convenience Store,Central,Riverton,R02,2025-04-01,0.0,30
+C0314,Harbor 24/7 Highmoor,Convenience Store,West,Highmoor,R13,2025-02-01,0.0,15
+C0315,Silver Express Redrock,Convenience Store,West,Redrock,R13,2025-04-01,0.0,15
+C0316,CRESCENT 24/7 RIVERTON,Convenience Store,Central,Riverton,R02,2025-03-01,0.0,30
+C0317,Cedar Kiosk Sandmere 3,Convenience Store,South,Sandmere,R07,2025-02-01,0.0,15
+C0318,Village 24/7 Redrock,Convenience Store,West,Redrock,R13,2025-04-01,0.0,0
+C0319,Sunrise Express Bayview,Convenience Store,South,Bayview,R08,2025-07-01,0.0,0
+C0320,Golden Express Sandmere,Convenience Store,South,Sandmere,R08,2025-03-01,0.0,15
+C0321,Silver Quick Shop Millbrook,Convenience Store,East,Millbrook,R11,2025-03-01,0.0,30
+C0322,Golden 24/7 Eastfield,Convenience Store,East,Eastfield,R11,2025-01-01,0.0,30
+C0323,Family Express Pinehill,Convenience Store,North,Pinehill,R06,2025-04-01,0.0,15
+C0324,Lotus Kiosk Pinehill,Convenience Store,North,Pinehill,R05,2025-02-01,0.0,15
+C0325,ROYAL QUICK SHOP BAYVIEW,Convenience Store,South,Bayview,R08,2025-06-01,0.0,15
+C0326,  Cedar 24/7 Southport,Convenience Store,South,Southport,R08,2025-07-01,0.0,30
+C0327,Harbor Express Riverton,Convenience Store,Central,Riverton,R02,2025-08-01,0.0,30
+C0328,Palm Express Southport,Convenience Store,South,Southport,R09,2025-01-01,0.0,30
+C0329,Village Express Millbrook,Convenience Store,East,Millbrook,R10,2025-09-01,0.0,30
+C0330,Al Noor Express Millbrook,Convenience Store,East,Millbrook,R11,2025-05-01,0.0,30
+C0331,Royal Kiosk Westvale,Convenience Store,West,Westvale,R12,2025-08-01,0.0,0
+C0332,Blue Door Quick Shop Redrock,Convenience Store,West,Redrock,R12,2025-05-01,0.0,15
+C0333,Union 24/7 Riverton,Convenience Store,Central,Riverton,R03,2025-03-01,0.0,0
+C0334,AL NOOR EXPRESS NORTHGATE,Convenience Store,North,Northgate,R05,2025-05-01,0.0,0
+C0335,Silver Kiosk Eastfield,Convenience Store,East,Eastfield,R11,2025-03-01,0.0,30
+C0336,Cedar Kiosk Eastfield,Convenience Store,East,Eastfield,R10,2025-07-01,0.0,15
+C0337,Lotus 24/7 Westvale,Convenience Store,West,Westvale,R12,2025-04-01,0.0,30
+C0338,Cedar 24/7 Bayview,Convenience Store,South,Bayview,R08,2025-06-01,0.0,0
+C0339,  Sunrise Catering Northgate,HoReCa,North,Northgate,R06,2022-01-01,0.0,0
+C0340,Al Noor Restaurant Highmoor,HoReCa,West,Highmoor,R12,2022-01-01,0.0,30
+C0341,Oasis Cafe Southport,HoReCa,South,Southport,R07,2022-01-01,0.0,0
+C0342,Family Bistro Pinehill,HoReCa,North,Pinehill,R04,2022-01-01,0.0,30
+C0343,OASIS CATERING REDROCK,HoReCa,West,Redrock,R12,2022-01-01,0.0,0
+C0344,Lotus Hotel Highmoor,HoReCa,West,Highmoor,R12,2022-01-01,0.0,15
+C0345,Al Noor Hotel Eastfield,HoReCa,East,Eastfield,R11,2022-01-01,0.0,15
+C0346,Royal Hotel Riverton,HoReCa,Central,Riverton,R02,2022-01-01,0.0,30
+C0347,Family Bistro Riverton,HoReCa,Central,Riverton,R03,2022-01-01,0.0,15
+C0348,Lotus Restaurant Pinehill,HoReCa,North,Pinehill,R06,2022-01-01,0.0,15
+C0349,Metro Catering Millbrook,HoReCa,East,Millbrook,R10,2022-01-01,0.0,0
+C0350,Union Hotel Riverton,HoReCa,Central,Riverton,R03,2022-01-01,0.0,30
+C0351,Cedar Bistro Southport,HoReCa,South,Southport,R09,2022-01-01,0.0,15
+C0352,AL NOOR CAFE NORTHGATE,HoReCa,North,Northgate,R05,2022-01-01,0.0,30
+C0353,Palm Hotel Kingsford,HoReCa,Central,Kingsford,R01,2022-01-01,0.0,0
+C0354,Palm Restaurant Pinehill,HoReCa,North,Pinehill,R05,2022-01-01,0.0,15
+C0355,Happy Bistro Eastfield,HoReCa,East,Eastfield,R11,2022-01-01,0.0,0
+C0356,Oasis Restaurant Northgate,HoReCa,North,Northgate,R06,2022-01-01,0.0,0
+C0357,Harbor Hotel Kingsford,HoReCa,Central,Kingsford,R02,2022-01-01,0.0,30
+C0358,Al Noor Hotel Pinehill,HoReCa,North,Pinehill,R04,2022-01-01,0.0,0
+C0359,Royal Hotel Riverton 5,HoReCa,central ,Riverton,R02,2022-01-01,0.0,0
+C0360,Happy Hotel Southport,HoReCa,South,Southport,R07,2022-01-01,0.0,15
+C0361,CORNER CAFE KINGSFORD,HoReCa,Central,Kingsford,R03,2022-01-01,0.0,0
+C0362,Garden Cafe Bayview,HoReCa,South,Bayview,R09,2022-01-01,0.0,30
+C0363,Palm Hotel Pinehill,HoReCa,North,Pinehill,R04,2022-01-01,0.0,30
+C0364,Star Catering Pinehill,HoReCa,Nrth,Pinehill,R05,2022-01-01,0.0,15
+C0365,  Corner Hotel Millbrook,HoReCa,East,Millbrook,R11,2022-01-01,0.0,15
+C0366,Star Catering Kingsford,HoReCa,central ,Kingsford,R01,2022-01-01,0.0,30
+C0367,Golden Cafe Kingsford,HoReCa,Central,Kingsford,R03,2022-01-01,0.0,30
+C0368,Happy Restaurant Eastfield,HoReCa,East,Eastfield,R11,2022-01-01,0.0,15
+C0369,Metro Catering Southport,HoReCa,South,Southport,R09,2024-09-01,0.0,30
+C0370,AL NOOR CAFE RIVERTON,HoReCa,Central,Riverton,R02,2024-12-01,0.0,30
+C0371,Blue Door Cafe Northgate,HoReCa,North,Northgate,R06,2024-04-01,0.0,15
+C0372,Cedar Cafe Kingsford,HoReCa,Central,Kingsford,R01,2024-02-01,0.0,0
+C0373,Al Noor Restaurant Riverton,HoReCa,Central,Riverton,R02,2024-03-01,0.0,15
+C0374,Lotus Cafe Kingsford,HoReCa,Central,Kingsford,R03,2024-04-01,0.0,30
+C0375,Golden Restaurant Southport,HoReCa,South,Southport,R09,2024-06-01,0.0,0
+C0376,Union Cafe Sandmere,HoReCa,South,Sandmere,R08,2024-08-01,0.0,15
+C0377,Star Bistro Sandmere,HoReCa,South,Sandmere,R09,2024-02-01,0.0,30
+C0378,  Oasis Catering Riverton,HoReCa,Central,Riverton,R03,2024-02-01,0.0,30
+C0379,OASIS CATERING PINEHILL,HoReCa,North,Pinehill,R06,2024-07-01,0.0,0
+C0380,Sunrise Bistro Westvale,HoReCa,West,Westvale,R13,2024-10-01,0.0,0
+C0381,Cedar Bistro Kingsford,HoReCa,Central,Kingsford,R02,2024-08-01,0.0,30
+C0382,Metro Hotel Pinehill,HoReCa,North,Pinehill,R04,2024-10-01,0.0,30
+C0383,Sunrise Hotel Highmoor,HoReCa,West,Highmoor,R12,2024-04-01,0.0,15
+C0384,Lotus Cafe Sandmere,HoReCa,South,Sandmere,R07,2024-04-01,0.0,30
+C0385,Palm Hotel Sandmere,HoReCa,South,Sandmere,R08,2025-08-01,0.0,15
+C0386,Garden Bistro Westvale,HoReCa,West,Westvale,R12,2025-06-01,0.0,15
+C0387,Village Bistro Pinehill,HoReCa,North,Pinehill,R04,2025-07-01,0.0,0
+C0388,CRESCENT BISTRO SANDMERE,HoReCa,South,Sandmere,R07,2025-09-01,0.0,15
+C0389,Cedar Bistro Southport 6,HoReCa,South,Southport,R07,2025-08-01,0.0,15
+C0390,Family Hotel Kingsford,HoReCa,Central,Kingsford,R01,2025-08-01,0.0,15
+C0391,  Village Hotel Northgate,HoReCa,North,Northgate,R05,2025-06-01,0.0,0
+C0392,Sunrise Catering Kingsford,HoReCa,Central,Kingsford,R03,2025-05-01,0.0,30
+C0393,Sunrise Bistro Northgate,HoReCa,North,Northgate,R05,2025-07-01,0.0,0
+C0394,Union Bistro Southport,HoReCa,South,Southport,R09,2025-05-01,0.0,0
+C0395,Palm Catering Sandmere,HoReCa,South,Sandmere,R09,2025-02-01,0.0,30
+C0396,Star Cafe Sandmere,HoReCa,South,Sandmere,R07,2025-03-01,0.0,15
+C0397,SUNRISE CATERING WESTVALE,HoReCa,West,Westvale,R12,2025-07-01,0.0,30
+C0398,Blue Door Cafe Pinehill,HoReCa,North,Pinehill,R05,2025-01-01,0.0,30
+C0399,Al Noor Hotel Millbrook,HoReCa,East,Millbrook,R11,2025-05-01,0.0,15
+C0400,Harbor Cafe Kingsford,HoReCa,Central,Kingsford,R01,2025-09-01,0.0,0
+C9000,village supermarket westvale,Regional Supermarket,West,Westvale,R12,2022-09-01,0.012,0
+C9001,village grocery bayview,Independent Grocery,South,Bayview,R08,2022-07-01,0.0,30
+C9002,family foods pinehill,Independent Grocery,North,Pinehill,R06,2022-05-01,0.0,30
+C9003,golden mini market southport,Independent Grocery,South,Southport,R08,2021-12-01,0.0,15
+C9004,harbor mini market riverton,Independent Grocery,Central,Riverton,R02,2021-09-01,0.0,15
+C9005,garden grocery redrock,Independent Grocery,West,Redrock,R13,2021-01-01,0.0,15
+C9999,TEST ACCOUNT - DO NOT USE,Internal,Central,Riverton,R01,2023-01-01,0.0,0
